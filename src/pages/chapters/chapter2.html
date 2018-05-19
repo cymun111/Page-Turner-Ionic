@@ -1,0 +1,16 @@
+<ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title (click)="gotoHome()">Home</ion-title>
+    </ion-navbar>
+  </ion-header>
+<ion-content>
+    <ion-card (swipeleft)="push()" (swiperight)="pop()" style="position: absolute;top:0;left:0;height:100%;width:100%;">
+        <h2>Chapter 2</h2>
+        <p>In ac convallis orci. Nunc a euismod purus. Sed sed aliquet ante, non sagittis tortor. Maecenas eu mollis metus, eget placerat nulla. Aenean non egestas ligula. Cras fermentum erat sed lectus egestas aliquam. Suspendisse lobortis nisi nulla, a ultricies ante interdum eu. Suspendisse leo magna, lobortis a diam eu, imperdiet iaculis nisl. Ut in erat sed tortor luctus suscipit ut non eros. In quis dolor orci. Maecenas gravida euismod lacus a tristique. Integer ac ligula imperdiet, consectetur diam non, mollis est.
+
+            Vestibulum iaculis orci sed orci aliquam, sed congue nisl dapibus. Mauris in lorem tellus. Etiam in mattis metus, vel tincidunt enim. Maecenas ultrices, ligula et vestibulum semper, felis purus varius magna, eu sollicitudin leo velit id urna. Sed mauris dui, malesuada vel libero bibendum, rutrum eleifend nisl. Aliquam ac eros est. In cursus eros a fringilla laoreet. Donec ut egestas metus. Etiam auctor ante nec lobortis tristique.</p>
+    </ion-card>
+</ion-content>

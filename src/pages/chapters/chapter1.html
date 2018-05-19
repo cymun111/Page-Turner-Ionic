@@ -1,0 +1,14 @@
+<ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title (click)="gotoHome()">Home</ion-title>
+    </ion-navbar>
+  </ion-header>
+<ion-content>
+    <ion-card (swipeleft)="push()" (swiperight)="pop()" style="position: absolute;top:0;left:0;height:100%;width:100%;">
+        <h2>Chapter 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut risus sollicitudin, accumsan justo non, pretium ligula. Cras vitae quam venenatis, consequat lacus ut, ornare velit. Ut sagittis, quam in hendrerit fermentum, leo libero maximus libero, laoreet maximus nibh metus non ipsum. Phasellus a lacinia velit, a pellentesque turpis. Sed diam nulla, tincidunt et mollis ut, lobortis et diam. Pellentesque tincidunt ex non ultrices consequat. Donec vel velit at dui aliquam mattis. In nulla ligula, placerat at nulla vel, rutrum dictum purus. Pellentesque et tempor nunc. Etiam tempor metus eros, id ornare orci facilisis eu. In sapien dolor, ullamcorper rhoncus euismod at, efficitur vitae ligula. Praesent nec bibendum lacus. Curabitur vel dui augue. Nulla tincidunt diam nec tempus tristique.</p>
+    </ion-card>
+</ion-content>

@@ -1,0 +1,19 @@
+<ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title (click)="gotoHome()" >Home</ion-title>
+    </ion-navbar>
+  </ion-header>
+<ion-content>
+    <ion-card (swipeleft)="push()" (swiperight)="pop()" style="position: absolute;top:0;left:0;height:100%;width:100%;">
+    <h2>Table Of Contents</h2>
+    <ul>
+      <li (click)="gotoChap1()" >Chapter One</li>
+      <li (click)="gotoChap2()" >Chapter Two</li>
+      <li (click)="gotoChap3()" >Chapter Three</li>
+      <li (click)="gotoChap4()" >Chapter Four</li>
+    </ul>
+</ion-card>
+    </ion-content>
